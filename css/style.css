@@ -1,0 +1,88 @@
+@import "my-style.css";
+*{
+    margin: 0;
+    padding: 0;
+}
+*:focus {outline: none;}
+img {
+    border: 0;
+    vertical-align: top;
+}
+html {
+    height: 100%;
+    min-height: 100%;
+    font-size: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position:relative;
+}
+*html ul,li{
+    text-align: left;
+}
+body {
+    height: 100%;
+    min-height: 100%;
+    font-family: 'MyriadPro', sans-serif;
+    position: relative;
+    font-size:18px;
+    font-weight: 400;
+    line-height:20px;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table,td {
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: MuseoSansCyrl;
+    src: url("../fonts/MUSEOSANSCYRL.OTF") format("opentype");
+}
+@font-face {
+    font-family: MuseoSansCyrl;
+    src: url("../fonts/MUSEOSANSCYRL_0.OTF") format("opentype");
+}
+@font-face {
+    font-family: MuseoSansCyrl;
+    src: url("../fonts/MUSEOSANSCYRL_1.OTF") format("opentype");
+}
+@font-face {
+    font-family: MuseoSansCyrl;
+    src: url("../fonts/MUSEOSANSCYRL_2.OTF") format("opentype");
+}
+@font-face {
+    font-family: MuseoSansCyrl;
+    font-weight: bold;
+    src: url("../fonts/MUSEOSANSCYRL_3.OTF") format("opentype");
+}
+.clear{
+    clear: both;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+
+
